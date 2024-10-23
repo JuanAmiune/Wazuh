@@ -33,7 +33,7 @@
 | syscheck                           | manager, agent                | File Integrity monitoring (syscheck)                         |
 | syslog_output                      | manager                       |                                                              |
 | task-manager                       | manager                       |                                                              |
-| vulnerability-detection             | manager                       |                                                              |
+| vulnerability-detection            | manager                       |                                                              |
 | wazuh_db                           | manager                       |                                                              |
 | wodle name="agent-key-polling"     | manager                       |                                                              |
 | wodle name="aws-s3"                | manager, agent                |                                                              |
