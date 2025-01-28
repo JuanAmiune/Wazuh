@@ -1,4 +1,10 @@
 #!/bin/bash
+# The directory /var/ossec/updates must be created beforehand.
+# This script should be located in /var/ossec/updates and have execution permissions for the root user only.
+# The purpose of this script is to be executed via Cron every hour to check if a new cti.zip database is available for download.
+# For instructions on how to configure ossec.conf for this scenario, refer to: https://documentation.wazuh.com/current/user-manual/capabilities/vulnerability-detection/offline-update.html
+# Keep this in mind during your Wazuh upgrade processes.
+
 
 # Variables
 CTI_LOG="/var/ossec/updates/cti.log"
